@@ -1,6 +1,6 @@
 [package]
-name = "imdl"
-version = "0.1.13"
+name = "gnostr-modal"
+version = "0.0.0"
 description = "📦 A 40' shipping container for the internet"
 authors = ["Casey Rodarmor <casey@rodarmor.com>"]
 license = "CC0-1.0"
@@ -10,7 +10,7 @@ categories = ["command-line-utilities"]
 homepage = "https://github.com/casey/intermodal"
 repository = "https://github.com/casey/intermodal"
 edition = "2021"
-default-run = "imdl"
+default-run = "gnostr-modal"
 
 [features]
 default = []
