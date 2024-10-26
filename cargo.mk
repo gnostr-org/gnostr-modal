@@ -3,7 +3,7 @@ cargo-br:cargo-build-release## 	cargo-br
 cargo-build-release:
 	cargo b -r
 install:cargo-install## 	cargo-install
-cargo-i:cargo-install
+cargo-i:cargo-install## 	cargo-install
 cargo-install:
 	cargo install --path .
 cargo-sort:## 	cargo-sort
