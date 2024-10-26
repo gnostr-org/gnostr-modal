@@ -1,14 +1,14 @@
 [package]
 name = "gnostr-modal"
-version = "0.0.1"
+version = "0.0.2"
 description = "📦 A 40' shipping container for the internet"
 authors = ["Casey Rodarmor <casey@rodarmor.com>"]
 license = "CC0-1.0"
 readme = "README.md"
 keywords = ["p2p", "sharing", "bittorrent", "torrent"]
 categories = ["command-line-utilities"]
-homepage = "https://github.com/casey/intermodal"
-repository = "https://github.com/casey/intermodal"
+homepage = "https://github.com/gnostr-org/gnostr-bits/crates/modal"
+repository = "https://github.com/gnostr-org/gnostr-bits/crates/modal"
 edition = "2021"
 default-run = "gnostr-modal"
 
