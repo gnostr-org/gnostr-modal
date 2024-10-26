@@ -655,6 +655,48 @@ dependencies = [
 ]
 
 [[package]]
+name = "gnostr-modal"
+version = "0.0.1"
+dependencies = [
+ "ansi_term",
+ "atty",
+ "bendy",
+ "chrono",
+ "console",
+ "criterion",
+ "globset",
+ "hex",
+ "ignore",
+ "imdl-indicatif",
+ "lazy_static",
+ "lexiclean",
+ "libc",
+ "log",
+ "md5",
+ "open",
+ "pretty_assertions",
+ "pretty_env_logger 0.5.0",
+ "rand",
+ "rayon",
+ "regex",
+ "serde",
+ "serde-hex",
+ "serde_bytes",
+ "serde_json",
+ "serde_with",
+ "sha1",
+ "snafu",
+ "static_assertions",
+ "structopt",
+ "strum 0.25.0",
+ "strum_macros 0.25.3",
+ "tempfile",
+ "temptree",
+ "unicode-width",
+ "url",
+]
+
+[[package]]
 name = "half"
 version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -786,48 +828,6 @@ dependencies = [
  "same-file",
  "walkdir",
  "winapi-util",
-]
-
-[[package]]
-name = "imdl"
-version = "0.1.14"
-dependencies = [
- "ansi_term",
- "atty",
- "bendy",
- "chrono",
- "console",
- "criterion",
- "globset",
- "hex",
- "ignore",
- "imdl-indicatif",
- "lazy_static",
- "lexiclean",
- "libc",
- "log",
- "md5",
- "open",
- "pretty_assertions",
- "pretty_env_logger 0.5.0",
- "rand",
- "rayon",
- "regex",
- "serde",
- "serde-hex",
- "serde_bytes",
- "serde_json",
- "serde_with",
- "sha1",
- "snafu",
- "static_assertions",
- "structopt",
- "strum 0.25.0",
- "strum_macros 0.25.3",
- "tempfile",
- "temptree",
- "unicode-width",
- "url",
 ]
 
 [[package]]
