@@ -110,7 +110,7 @@ mod tests {
 
     env.assert_ok();
 
-    assert!(env.out().starts_with("_imdl() {"));
+    assert!(env.out().starts_with("_gnostgr-modal() {"));
   }
 
   #[test]
@@ -125,7 +125,7 @@ mod tests {
 
     env.assert_ok();
 
-    assert!(env.out().starts_with("_imdl() {"));
+    assert!(env.out().starts_with("_gnostr-modal() {"));
   }
 
   #[test]
@@ -143,9 +143,9 @@ mod tests {
 
     env.assert_ok();
 
-    let script = env.read_to_string("imdl.bash");
+    let script = env.read_to_string("gnostr-modal.bash");
 
-    assert!(script.starts_with("_imdl() {"));
+    assert!(script.starts_with("_gnostr-modal() {"));
   }
 
   #[test]
@@ -162,9 +162,9 @@ mod tests {
 
     env.assert_ok();
 
-    let script = env.read_to_string("imdl.bash");
+    let script = env.read_to_string("gnostr-modal.bash");
 
-    assert!(script.starts_with("_imdl() {"));
+    assert!(script.starts_with("_gnostr-modal() {"));
   }
 
   #[test]
@@ -180,10 +180,10 @@ mod tests {
 
     env.assert_ok();
 
-    let script = env.read_to_string("imdl.bash");
-    assert!(script.starts_with("_imdl() {"));
+    let script = env.read_to_string("gnostr-modal.bash");
+    assert!(script.starts_with("_gnostr-modal() {"));
 
-    let script = env.read_to_string("_imdl.ps1");
+    let script = env.read_to_string("_gnostr-modal.ps1");
     assert!(script.starts_with("using namespace"));
   }
 }

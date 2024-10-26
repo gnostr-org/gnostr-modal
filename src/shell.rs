@@ -31,11 +31,11 @@ impl Shell {
 
   pub(crate) fn completion_script_filename(self) -> &'static str {
     match self {
-      Self::Bash => "imdl.bash",
-      Self::Fish => "imdl.fish",
-      Self::Zsh => "_imdl",
-      Self::Powershell => "_imdl.ps1",
-      Self::Elvish => "imdl.elvish",
+      Self::Bash => "gnostr-modal.bash",
+      Self::Fish => "gnosgtr-modal.fish",
+      Self::Zsh => "_gnostr-modal",
+      Self::Powershell => "_gnostr-modal.ps1",
+      Self::Elvish => "gnostr-modal.elvish",
     }
   }
 
